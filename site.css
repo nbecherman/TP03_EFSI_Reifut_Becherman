@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .project-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 200px;
+    float: left; /* Move project inputs to the left side */
+  }
+  
+  .project-inputs input,
+  .project-inputs button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Improved button styles */
+  .project-inputs button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    cursor: pointer; /* Indicate interactivity */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .project-inputs button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Improved font styles (optional) */
+  body, h2 {
+    font-family: "Open Sans", sans-serif; /* Use a modern, web-safe font */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .acciones {
+    margin-top: 10px; /* Ajusta este valor según sea necesario */
+}
