@@ -1,35 +1,35 @@
-/* Estilo general */
+
 body {
-  font-family: 'Poppins', sans-serif; /* Usa una fuente moderna */
+  font-family: 'Poppins', sans-serif; 
   background-color: #f3f3f3;
   margin: 0;
   padding: 20px;
 }
 
-/* Estilos para las entradas del proyecto */
+
 .project-inputs {
   display: flex;
   flex-direction: column;
-  width: 250px; /* Más estrecho para mayor énfasis */
+  width: 250px; 
   padding: 20px;
   background-color: #fff;
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  border-radius: 10px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
   margin-bottom: 20px;
 }
 
 .project-inputs input,
 .project-inputs button {
   margin-bottom: 15px;
-  padding: 10px 15px; /* Espaciado adicional */
-  border: 2px solid #0077b6; /* Bordes de color vibrante */
-  border-radius: 20px; /* Bordes redondeados */
+  padding: 10px 15px; 
+  border: 2px solid #0077b6; 
+  border-radius: 20px; 
   outline: none;
 }
 
-/* Estilos para los botones */
+
 .project-inputs button {
-  background-color: #00b4d8; /* Azul vibrante */
+  background-color: #00b4d8; 
   color: white;
   font-weight: bold;
   transition: background-color 0.3s ease;
@@ -37,15 +37,15 @@ body {
 }
 
 .project-inputs button:hover {
-  background-color: #0077b6; /* Azul más oscuro */
+  background-color: #0077b6; 
 }
 
-/* Estilos para las tablas */
+
 table {
   border-collapse: collapse;
   width: 100%;
   background-color: #fff;
-  border-radius: 10px; /* Bordes redondeados */
+  border-radius: 10px; 
   overflow: hidden;
 }
 
@@ -61,10 +61,10 @@ th {
 }
 
 td {
-  background-color: #e0f7fa; /* Color suave para las celdas */
+  background-color: #e0f7fa; 
 }
 
-/* Estilos para los proyectos */
+
 #tablaProyectos div {
   padding: 20px;
   margin-bottom: 20px;
