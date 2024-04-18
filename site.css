@@ -1,57 +1,74 @@
+/* Estilo general */
 body {
-    font-family: Arial, sans-serif; /* Specify a fallback font */
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .project-inputs {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 200px;
-    float: left; /* Move project inputs to the left side */
-  }
-  
-  .project-inputs input,
-  .project-inputs button {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* Improved button styles */
-  .project-inputs button {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    cursor: pointer; /* Indicate interactivity */
-    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
-  }
-  
-  .project-inputs button:hover {
-    background-color: #3e8e41; /* Darker green on hover */
-  }
-  
-  /* Improved font styles (optional) */
-  body, h2 {
-    font-family: "Open Sans", sans-serif; /* Use a modern, web-safe font */
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th,
-  td {
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .acciones {
-    margin-top: 10px; /* Ajusta este valor según sea necesario */
+  font-family: 'Poppins', sans-serif; /* Usa una fuente moderna */
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilos para las entradas del proyecto */
+.project-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Más estrecho para mayor énfasis */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  margin-bottom: 20px;
+}
+
+.project-inputs input,
+.project-inputs button {
+  margin-bottom: 15px;
+  padding: 10px 15px; /* Espaciado adicional */
+  border: 2px solid #0077b6; /* Bordes de color vibrante */
+  border-radius: 20px; /* Bordes redondeados */
+  outline: none;
+}
+
+/* Estilos para los botones */
+.project-inputs button {
+  background-color: #00b4d8; /* Azul vibrante */
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.project-inputs button:hover {
+  background-color: #0077b6; /* Azul más oscuro */
+}
+
+/* Estilos para las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+th {
+  background-color: #00b4d8;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #e0f7fa; /* Color suave para las celdas */
+}
+
+/* Estilos para los proyectos */
+#tablaProyectos div {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
